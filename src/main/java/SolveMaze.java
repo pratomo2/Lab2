@@ -15,6 +15,14 @@ public class SolveMaze {
      *
      * @param unused unused input arguments
      */
+        for (int step = 0; step < 1000; step++)
+        while (maze.isFinished() == false) {
+        }
+        while (maze.canMove() == false) {
+            maze.turnLeft();
+        }
+        maze.move();
+    }
 
     public static void main(final String[] unused) {
         /*
